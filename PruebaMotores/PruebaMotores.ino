@@ -1,4 +1,8 @@
- 
+
+void setup() {
+  motorOn(M1, FORWARD);
+  motorOn(M2, FORWARD);
+}
 
 void loop() {
   // put your main code here, to run repeatedly:
@@ -6,8 +10,8 @@ void loop() {
   delay(2000);
   goReverse(M1, M2);
   delay(2000);
-  motorSpeed(M1, 20);
-  motorSpeed(M2, 10);
+  motorSpeed(M1, 50);
+  motorSpeed(M2, 50);
   goForward(M1, M2);
   delay(2000);
 }
