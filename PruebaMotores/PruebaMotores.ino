@@ -6,8 +6,8 @@ void loop() {
   delay(2000);
   goReverse(M1, M2);
   delay(2000);
-  motorSpeed(M1, 80);
-  motorSpeed(M2, 80);
+  motorSpeed(M1, 20);
+  motorSpeed(M2, 10);
   goForward(M1, M2);
   delay(2000);
 }
