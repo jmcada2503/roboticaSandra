@@ -7,8 +7,8 @@ void setup() {
   // put your setup code here, to run once:
   motorOn(leftMotor, FORWARD);
   motorOn(rightMotor, FORWARD);
-  motorSpeed(M1, 60);
-  motorSpeed(M2, 60);
+  motorSpeed(leftMotor, 80);
+  motorSpeed(rightMotor, 50);
   Serial.begin(9600);
 }
 
